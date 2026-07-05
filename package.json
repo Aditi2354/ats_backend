@@ -1,0 +1,30 @@
+{
+  "name": "ats-backend",
+  "version": "1.0.0",
+  "description": "SmartHire AI Backend - ATS Resume Analyzer and Job Matcher",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aditi2354/ats_backend.git"
+  },
+  "author": "Aditi Kesharwani",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.2.0",
+    "pdf.js-extract": "^1.0.1",
+    "pg": "^8.22.0",
+    "serpapi": "^2.2.1"
+  }
+}
